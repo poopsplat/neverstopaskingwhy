@@ -1,0 +1,92 @@
+//base styles
+* {
+ @include box-sizing(border-box);
+}
+
+html {
+  height: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+  height: 100%;
+  color: $white;
+	font-size: 16px; //Em base unit
+	font-size: 100%;
+  background: $red;
+  font-family: $serif;
+  text-align: center;
+	@include font-smoothing(antialiased);
+}
+
+a {
+  color: $white;
+  display: inline-block;
+	text-decoration: none;
+  @include translate(0, 0);
+  @include transition(transform 0.2s ease-in-out);
+  &:hover {
+    @include translate(0, -2px);
+  }
+  &:focus, &:active {
+    @include translate(0, 0);
+  }
+}
+
+img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sans;
+  font-weight: normal;
+}
+
+::selection {
+  background: rgba(0,0,0,0.0); /* Safari */
+  }
+::-moz-selection {
+  background: rgba(0,0,0,0.0); /* Firefox */
+}
+
+.why {
+  z-index: 0;
+  font-size: 2em;
+  position: absolute;
+  color: rgba(0,0,0,0.50);
+}
+
+main {
+  z-index: 1;
+  width: 100%;
+  height: 80%;
+  display: table;
+  text-align: center;
+  position: relative;
+  .container {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  h1 {
+    margin: 0;
+    cursor: help;
+    padding: 0.5em;
+    font-size: 3em;
+    display: table-cell;
+    display: inline-block;
+    @include text-shadow(1px 1px rgba(0,0,0,0.50));
+    &:active {
+      @include translate(0, 1px);
+    }
+  }
+}
+
+footer {
+  z-index: 1;
+  height: 20%;
+  position: relative;
+  a {
+    padding: 6px;
+  }
+}

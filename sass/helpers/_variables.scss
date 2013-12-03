@@ -1,0 +1,18 @@
+// Variables
+
+// Colors
+$black: #444;
+$white: #fff;
+$gray: #D4D4D4;
+$red: #B51B2E;
+
+// Color classes
+.black {color: $black}
+.white {color: $white}
+.gray {color: $gray}
+
+// Breakpoints
+$bpSmall: 30em; // 480px
+$bpMed: 43.75em; // 700px
+$bpBig: 62.5em; // 1000px
+$bpHuge: 187.5em; // 3000px
