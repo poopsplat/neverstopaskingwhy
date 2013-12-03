@@ -596,18 +596,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 47, ../sass/components/_base.scss */
+cite {
+  font-style: normal;
+}
+
+/* line 51, ../sass/components/_base.scss */
 ::selection {
   background: rgba(0, 0, 0, 0);
   /* Safari */
 }
 
-/* line 50, ../sass/components/_base.scss */
+/* line 54, ../sass/components/_base.scss */
 ::-moz-selection {
   background: rgba(0, 0, 0, 0);
   /* Firefox */
 }
 
-/* line 54, ../sass/components/_base.scss */
+/* line 58, ../sass/components/_base.scss */
 .why {
   z-index: 0;
   font-size: 2em;
@@ -615,7 +620,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 61, ../sass/components/_base.scss */
+/* line 65, ../sass/components/_base.scss */
 main {
   z-index: 1;
   width: 100%;
@@ -624,12 +629,12 @@ main {
   text-align: center;
   position: relative;
 }
-/* line 68, ../sass/components/_base.scss */
+/* line 72, ../sass/components/_base.scss */
 main .container {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 72, ../sass/components/_base.scss */
+/* line 76, ../sass/components/_base.scss */
 main h1 {
   margin: 0;
   cursor: help;
@@ -640,18 +645,18 @@ main h1 {
   display: inline-block;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
-/* line 81, ../sass/components/_base.scss */
+/* line 85, ../sass/components/_base.scss */
 main h1:active {
   top: 1px;
 }
 
-/* line 87, ../sass/components/_base.scss */
+/* line 91, ../sass/components/_base.scss */
 footer {
   z-index: 1;
   height: 20%;
   position: relative;
 }
-/* line 91, ../sass/components/_base.scss */
+/* line 95, ../sass/components/_base.scss */
 footer a {
   padding: 6px;
 }
