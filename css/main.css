@@ -435,6 +435,93 @@ table {
   font-family: Georgia, serif;
 }
 
+/* line 3, ../sass/helpers/_animations.scss */
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+/* line 3, ../sass/helpers/_animations.scss */
+.animated.hinge {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fadeInUp {
+  /* line 4, ../sass/helpers/_animations.scss */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+
+  /* line 7, ../sass/helpers/_animations.scss */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes fadeInUp {
+  /* line 14, ../sass/helpers/_animations.scss */
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(20px);
+  }
+
+  /* line 19, ../sass/helpers/_animations.scss */
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes fadeInUp {
+  /* line 26, ../sass/helpers/_animations.scss */
+  0% {
+    opacity: 0;
+    -o-transform: translateY(20px);
+  }
+
+  /* line 31, ../sass/helpers/_animations.scss */
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  /* line 38, ../sass/helpers/_animations.scss */
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  /* line 43, ../sass/helpers/_animations.scss */
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* line 49, ../sass/helpers/_animations.scss */
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
 /* line 2, ../sass/components/_base.scss */
 * {
   -webkit-box-sizing: border-box;
@@ -548,26 +635,23 @@ main h1 {
   cursor: help;
   padding: 0.5em;
   font-size: 3em;
+  position: relative;
   display: table-cell;
   display: inline-block;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
-/* line 80, ../sass/components/_base.scss */
+/* line 81, ../sass/components/_base.scss */
 main h1:active {
-  -webkit-transform: translate(0, 1px);
-  -moz-transform: translate(0, 1px);
-  -ms-transform: translate(0, 1px);
-  -o-transform: translate(0, 1px);
-  transform: translate(0, 1px);
+  top: 1px;
 }
 
-/* line 86, ../sass/components/_base.scss */
+/* line 87, ../sass/components/_base.scss */
 footer {
   z-index: 1;
   height: 20%;
   position: relative;
 }
-/* line 90, ../sass/components/_base.scss */
+/* line 91, ../sass/components/_base.scss */
 footer a {
   padding: 6px;
 }
