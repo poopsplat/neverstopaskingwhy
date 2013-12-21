@@ -427,7 +427,7 @@ table {
 
 /* line 12, ../sass/helpers/_variables.scss */
 .gray {
-  color: #d4d4d4;
+  color: #cccccc;
 }
 
 /* line 9, ../sass/helpers/_typography.scss */
@@ -538,10 +538,9 @@ html {
 /* line 11, ../sass/components/_base.scss */
 body {
   height: 100%;
-  color: white;
+  color: #cccccc;
   font-size: 16px;
   font-size: 100%;
-  background: #fc3a3a;
   overflow: hidden;
   text-align: center;
   font-family: "rooney-web", Georgia, serif;
@@ -551,7 +550,7 @@ body {
   font-smoothing: antialiased;
 }
 
-/* line 23, ../sass/components/_base.scss */
+/* line 22, ../sass/components/_base.scss */
 a {
   color: white;
   display: inline-block;
@@ -566,7 +565,7 @@ a {
   -o-transition: -o-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
 }
-/* line 29, ../sass/components/_base.scss */
+/* line 28, ../sass/components/_base.scss */
 a:hover {
   -webkit-transform: translate(0, -2px);
   -moz-transform: translate(0, -2px);
@@ -574,7 +573,7 @@ a:hover {
   -o-transform: translate(0, -2px);
   transform: translate(0, -2px);
 }
-/* line 32, ../sass/components/_base.scss */
+/* line 31, ../sass/components/_base.scss */
 a:focus, a:active {
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
@@ -583,36 +582,36 @@ a:focus, a:active {
   transform: translate(0, 0);
 }
 
-/* line 37, ../sass/components/_base.scss */
+/* line 36, ../sass/components/_base.scss */
 img {
   max-width: 100%;
   height: auto !important;
 }
 
-/* line 42, ../sass/components/_base.scss */
+/* line 41, ../sass/components/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "museo-slab", Helvetica, sans-serif;
   font-weight: normal;
 }
 
-/* line 47, ../sass/components/_base.scss */
+/* line 46, ../sass/components/_base.scss */
 cite {
   font-style: normal;
 }
 
-/* line 51, ../sass/components/_base.scss */
+/* line 50, ../sass/components/_base.scss */
 ::selection {
   background: rgba(0, 0, 0, 0);
   /* Safari */
 }
 
-/* line 54, ../sass/components/_base.scss */
+/* line 53, ../sass/components/_base.scss */
 ::-moz-selection {
   background: rgba(0, 0, 0, 0);
   /* Firefox */
 }
 
-/* line 58, ../sass/components/_base.scss */
+/* line 57, ../sass/components/_base.scss */
 .why {
   z-index: 0;
   font-size: 2em;
@@ -620,7 +619,7 @@ cite {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 65, ../sass/components/_base.scss */
+/* line 64, ../sass/components/_base.scss */
 main {
   z-index: 1;
   width: 100%;
@@ -629,12 +628,12 @@ main {
   text-align: center;
   position: relative;
 }
-/* line 72, ../sass/components/_base.scss */
+/* line 71, ../sass/components/_base.scss */
 main .container {
   display: table-cell;
   vertical-align: middle;
 }
-/* line 76, ../sass/components/_base.scss */
+/* line 75, ../sass/components/_base.scss */
 main h1 {
   margin: 0;
   cursor: help;
@@ -645,18 +644,18 @@ main h1 {
   display: inline-block;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
-/* line 85, ../sass/components/_base.scss */
+/* line 84, ../sass/components/_base.scss */
 main h1:active {
   top: 1px;
 }
 
-/* line 91, ../sass/components/_base.scss */
+/* line 90, ../sass/components/_base.scss */
 footer {
   z-index: 1;
   height: 20%;
   position: relative;
 }
-/* line 95, ../sass/components/_base.scss */
+/* line 94, ../sass/components/_base.scss */
 footer a {
   padding: 6px;
 }
