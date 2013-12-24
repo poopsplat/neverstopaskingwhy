@@ -10,12 +10,13 @@ html {
 
 body {
   height: 100%;
-  color: $gray;
+  color: $white;
 	font-size: 16px; //Em base unit
 	font-size: 100%;
   overflow: hidden;
   text-align: center;
   font-family: $serif;
+  background: $blue;
 	@include font-smoothing(antialiased);
 }
 
@@ -93,5 +94,8 @@ footer {
   position: relative;
   a {
     padding: 6px;
+    background: $blue;
+    @include border-radius(6px);
+    @include box-shadow(0 1px rgba(0,0,0,0.5));
   }
 }
